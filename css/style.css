@@ -394,3 +394,45 @@ footer.site .sp{ margin-left:auto; }
   border: 2px solid#00ff41;
   box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
 }
+
+
+.custom-badge-card {
+  background-color: #1a1a1a; /* Tweak to match Credly's exact dark grey */
+  border: 1px solid #333; /* Soft border */
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  font-family: Arial, sans-serif; /* Credly uses standard sans-serif */
+  overflow: hidden;
+  margin-top: 15px; /* Match the spacing in your grid */
+}
+
+.badge-image-container {
+  padding: 25px 20px 10px 20px;
+}
+
+.badge-image-container img {
+  width: 110px; /* Adjust to match the Cisco/MathWorks logo size */
+  height: auto;
+}
+
+.badge-info h3 {
+  margin:0 0 10px; font-size:16px; color:var(--ink-strong); }
+
+
+
+.badge-info p {
+  color: #a0a0a0;
+  font-size: 12px;
+  margin: 0 0 20px 0;
+  font-style: italic;
+}
+
+.badge-footer {
+  background-color: #f9f9f9; /* Credly's white footer */
+  padding: 10px;
+  color: #777;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
