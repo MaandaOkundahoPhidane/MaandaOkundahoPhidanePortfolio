@@ -344,7 +344,15 @@ p:last-child{ margin-bottom:0; }
 /* ---------- Cards / group teaser ---------- */
 .cards{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
 .card{ background:var(--surface); border:1px solid var(--line); border-radius:12px;
-  padding:18px 20px; box-shadow:var(--shadow); }
+  padding:18px 20px; box-shadow:var(--shadow);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 30px rgba(0, 255, 65, 0.1);
+}
+
 .card h3{ margin:0 0 10px; font-size:16px; color:var(--ink-strong); }
 .card ul{ margin:0; padding-left:18px; color:var(--mut); font-size:14.5px; line-height:1.75; }
 .btn{ display:inline-block; font-size:14px; font-weight:650; color:#fff; background:var(--accent);
@@ -408,6 +416,13 @@ footer.site .sp{ margin-left:auto; }
   overflow: hidden;
   margin-top: 15px;
 }
+
+.custom-badge-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 30px rgba(0, 255, 65, 0.1);
+}
+
 
 .badge-image-container {
   padding: 25px 20px 10px 20px;
