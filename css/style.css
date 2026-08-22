@@ -328,7 +328,8 @@ a:hover{ color:var(--accent-hover); }
 .hero .contact a:hover{ border-color:var(--accent); color:var(--accent); }
 
 /* ---------- Sections ---------- */
-section.blk{ padding:40px 0; border-bottom:1px solid var(--line); }
+
+section{ padding:60px 0; border-bottom:1px solid var(--line); }
 section.blk:last-of-type{ border-bottom:0; }
 h2.sec{ font-family:"Black Ops One",monospace; font-weight:400;
   font-size:26px; letter-spacing:-.01em; color:var(--ink-strong); margin:0 0 20px;
