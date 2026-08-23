@@ -44,9 +44,24 @@
 
   <nav class="nav">
 
+    <script>
+      const toggle = document.getElementById('navToggle');
+      const links = document.querySelector('.nav .links');
+
+      toggle.addEventListener('click', () => {
+        links.classList.toggle('open');
+      });
+    </script>
+
 
     <div class="nav-inner">
       <a class="brand" href="./index.html">M.O. Phidane</a>
+      <!-- In the nav section, add this after the brand -->
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <div class="links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
@@ -117,7 +132,7 @@
               <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-UWMEHEPTZP.pdf"
                  target="_blank"
                  rel="noopener">
-              <img src="img/PreSecurity.jpg" alt="Pre Security" width="2708" height="auto">
+              <img src="img/PreSecurity.jpg" alt="Pre Security" style="width:100%; max-width:300px; height: auto">
               </a>
 
 
@@ -132,7 +147,7 @@
             <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NZDNPSZH9S.pdf"
                target="_blank"
                rel="noopener">
-            <img src="img/CyberSecurity101.jpg" alt="Cyber Security 101">
+            <img src="img/CyberSecurity101.jpg" alt="Cyber Security 101" style="width:100%; max-width:300px; height: auto">
             </a>
           </div>
         </div>
