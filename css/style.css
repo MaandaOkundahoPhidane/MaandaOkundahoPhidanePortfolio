@@ -271,6 +271,12 @@ textarea {
   --maxw:820px;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin: 2em 0;
+}
 /* ---------- Base ---------- */
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; scroll-padding-top:76px; }
