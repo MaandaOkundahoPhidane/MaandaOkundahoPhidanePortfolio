@@ -2,4 +2,9 @@
 
 # Allow crawling of all content
 User-agent: *
+
+
+Allow: /
+
+Sitemap: https://maandaokundahophidane.co.za/sitemap.xml
 Disallow:
