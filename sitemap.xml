@@ -1,59 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://maandaokundahophidane.co.za/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- About Section -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#about</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Education -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#education</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Certifications -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#certifications</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Projects -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#Projects</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Experience -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#Experience</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Tech Stack -->
-  <url>
-    <loc>https://maandaokundahophidane.co.za/#Tech-Stack</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
 </urlset>
