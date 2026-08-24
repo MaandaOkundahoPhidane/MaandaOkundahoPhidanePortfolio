@@ -558,7 +558,7 @@ details:hover summary {
   text-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
 }
 
-/* Alternative: Plus/Minus style instead of arrow */
+/* Alternative: Plus/Minus style instead of arrow
 details summary::before {
   content: "+";
   font-size: 18px;
@@ -571,4 +571,4 @@ details[open] summary::before {
   content: "−";
   transform: rotate(0deg);
 }
-
+*/
