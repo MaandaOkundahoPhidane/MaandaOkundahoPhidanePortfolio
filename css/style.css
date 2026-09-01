@@ -553,22 +553,61 @@ details p {
   }
 }
 
-/* Optional: Add a subtle glow on hover */
+/* Add a subtle glow on hover */
 details:hover summary {
   text-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
 }
 
-/* Alternative: Plus/Minus style instead of arrow
-details summary::before {
-  content: "+";
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--accent);
-  transition: transform 0.3s ease;
+
+/* Split nav into two rows on desktop */
+.nav-inner {
+  flex-wrap: wrap;
+  gap: 4px 22px;
 }
 
-details[open] summary::before {
-  content: "−";
-  transform: rotate(0deg);
+.primary-links {
+  order: 2;
+  width: 100%;
+  margin-left: 0;
+  justify-content: center;
+  gap: 16px;
 }
-*/
+
+.page-links {
+  order: 3;
+  width: 100%;
+  margin-left: 0;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 6px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.page-links a {
+  font-size: 13px;
+  color: var(--mut);
+  opacity: 0.8;
+}
+
+.page-links a:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
+
+@media (max-width: 500px) {
+  .primary-links,
+  .page-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    border-top: none;
+  }
+
+  .page-links {
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+}
