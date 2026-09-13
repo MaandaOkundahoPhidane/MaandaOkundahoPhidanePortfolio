@@ -71,14 +71,6 @@
 
 
 
-        <script>
-          const toggle = document.getElementById('navToggle');
-          const links = document.querySelector('.nav .links');
-
-          toggle.addEventListener('click', () => {
-            links.classList.toggle('open');
-          });
-        </script>
 
 
         <div class="nav-inner">
@@ -266,7 +258,7 @@
             </div>
 
             <div class="card">
-              <h3>Club and Society Positions<</h3>
+              <h3>Club and Society Positions</h3>
               <p class="muted">Subcommittee</p>
 
 
@@ -327,6 +319,16 @@
         </section>
 
       </div>
+
+
+      <script>
+        const toggle = document.getElementById('navToggle');
+        const links = document.querySelector('.nav .links');
+
+        toggle.addEventListener('click', () => {
+          links.classList.toggle('open');
+        });
+      </script>
       </main>
 
 
